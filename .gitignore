@@ -9,3 +9,7 @@ __pycache__
 .devcontainer/devcontainer-lock.json
 utils/uv.lock
 .github/agents/*
+# Node.js dependencies and lockfiles (for prettier linter)
+*/node_modules/*
+*/package-lock.json
+*/package.json
