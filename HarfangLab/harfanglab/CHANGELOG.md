@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### 2026-06-08 - 1.3.1
+
+### Added
+
+- Update the `network_info` parser (for `event.category: network` / `event.dataset: network`) to parse the following additional fields:
+    - `destination.bytes`
+    - `harfanglab.network.kind`
+    - `source.bytes`
+
 ### 2024-12-11 - 1.3.0
 
 ### Changed
