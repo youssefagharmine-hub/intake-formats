@@ -12,9 +12,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Update the `network_info` parser (for `event.category: network` / `event.dataset: network`) to parse the following additional fields:
-    - `destination.bytes`
+    - `destination.bytes` (ECS)
     - `harfanglab.network.kind`
-    - `source.bytes`
+    - `source.bytes` (ECS)
+- Update DNS resolution parsing to support values under `details_dns_resolution` and parse:
+    - `dns.question.name` (ECS)
+    - `dns.resolved_ip` (ECS)
+    - `harfanglab.dns.raw_windows_resolver_results`
 
 ### 2024-12-11 - 1.3.0
 
